@@ -1,0 +1,69 @@
+Constructor:
+      Constructor is a block of code that is used to construct object.
+
+Why we use constructor:
+
+      Constructor help us initialize object in cleaner and more readable way.
+      They are better that mehtods becuse they are called automatically when we crate an objct.
+      Most of the time fielda are private and becuse of this reason we cant access them out sid of
+      the class in which they are declerd and cant initialize them .
+
+How to use Constructor:
+
+     we create constructor by writing a block of code that has same name as class name when we create of
+     the object of the class and it is called automatically.
+
+Rules:
+1)   Constructors dont have return types not even void
+2)   Constructors shoud have same name as class name.
+3)   Constructors can have access modifiers like private public and protected .
+4)   Constructors can not have non access modifies like static final synchronized
+5)   Default constructor is provided by java if we dont write one
+6)   when we create the object of class then constructor is call
+if the class name is Dog Dog do1=new Dog();
+7)   We can create mutltiple construtors to give the other use flexibility that they dont have
+to privide all the values to all the instance feild when creating an object of our class.
+8)  we can call the constroctor of al class by using this keyword with parenthesis.
+this() we can pass parameters and java will decide base on these parameters which constructor to call.
+"this " keyword:
+when ever we can same name varibles as instance varible and local varibles this keyword can help us resolve
+the conflict between local and instance variable.
+
+class human{
+String name="sleeping zombi;
+void printname(){
+String name="wake up zombia"
+System.out.print(this.name);
+
+}
+}
+==================================================================================================
+what is inheritance:
+     inheritance is a machanism in java throught which we can get the properties and methods from the
+     parent class inside the child class.
+
+     inheritance helps us reduce the amount of code that we have to write for example if there are some property
+     and methods which are present in many different clasess we can create a parent class for all of those
+     properties and can put the common properties or method inside that parent class and can make chidern clasess
+     extand from that parent class.
+1) create a parent class
+2) put all the common methods and properties from childern  clasess inside that parent class.
+3) use extands keyword to inherit from that parent class.
+
+Rules:
+
+1) private fields and private mehtods can not be inherited inside the childminder class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

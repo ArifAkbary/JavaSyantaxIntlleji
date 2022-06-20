@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/out/Class14/Class14.iml" filepath="$PROJECT_DIR$/out/Class14/Class14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Class14/Class14.iml" filepath="$PROJECT_DIR$/src/Class14/Class14.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSyntax.iml" filepath="$PROJECT_DIR$/JavaSyntax.iml" />
     </modules>
   </component>
