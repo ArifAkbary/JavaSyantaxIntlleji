@@ -1,0 +1,55 @@
+What is PolyMorphism?
+
+polymorphism is the ability of a method to behave differently
+depending upon object or parameters that we pass to a method.
+when we use pass differnt parameters to method and it behive diffeetlyl
+then it is called static plolymoriphism (compile polymarphism)
+(early binding).
+
+when we achive Polymorphism throught method overding the it is called
+dynamic binding or run time PolyMorphism or late bin
+
+Why we should use polymorphism;
+
+1)cleaner code.
+2)we never prefer to change the existing code if we want to improve somethings
+we always want to create new method and new classes.we can call these methods using the parent classes
+variables /reference :
+
+3)we can call multiple methods from many different many calss with help of a single varibles like we can
+the array of object with help of a loop will be able to call all method from all class
+
+How can we use polyMorphizm ;
+1) create a parents child relathiships:
+2)override the method in the child classs
+3)creat the array of all the child class object with help of loop
+we can call the method from all the child class
+
+Rules:
+1) All the rules that applay for overriding also apply for the poly marphism;
+2)we can store the object of child class inside a varible of the type parents class but we can not do
+the reverse ;
+3)we can also create arrays of type parent and they can hold the object of child classes;
+=====================================================================================================
+
+what is Abstraction:
+
+    Abstract is providing only necessary detials and hidding all implementations details
+why shoud we learn Abstracting :
+1) it reduce the complexity by seprerating  the idea from implementation.
+2)it helps use enforce rules and convey our requirements.
+
+How can we use Abstractions:
+create class with abstract keyword.
+use the the abstract keyword with method header and dont privide the body of that method inside the
+parents class .
+create the child class extand theose class from parents implement the abstract methods
+we can declaer the child class as abstract as well
+
+
+
+
+
+
+
+
