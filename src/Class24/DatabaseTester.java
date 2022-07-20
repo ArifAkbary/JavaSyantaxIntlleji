@@ -6,11 +6,13 @@ public class DatabaseTester {
 
         Database[]databases={new MySQLServer(),new Database.Infromix()};
 
-        for(Database database  :databases){
+        for(Database database :databases){
             database.open();
             database.readData();
             database.writeData();
             database.closeTheDatabase();
+
+
 
 
         }

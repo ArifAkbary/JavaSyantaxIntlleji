@@ -1,29 +1,8 @@
-What is method overriding in java
-     when same method with sme header exist in in the child class as well we call
-     method overriding .
-     why we shoud ovrride a method:
-     if we inhertite from a class all the mather which not orivate they are inhertited in
-     the child class
+Recap:
+What is method overriding :
+     When same method with sme header exist in in the child class as well we call
+     method overriding.
 
-     if we dont like some of this metthers becuse thyey consum more interntet bandwidth or
-     consume a lot of CPU or usear a lot memeory we can ovride them the child less.
-
-     How can we use methodo overridiing :
-
-         1)we must inhertie from a calss
-         2)we can read declaer the method with same return
-
-         rules:
-         1)we nust a auper derived class telathionships
-        2) method in java class must have same headr but they can be diffeent in threm of access
-         modifeirs in very new condaion if terms of rtuen
-         3).we cant change the access modifer from public in protected or defult.
-         but we and do it in rverse order
-
-         4)we cant override vonstructors becuse they are also not inherited.
-         5)if a method is static we use a different terminology it is called method redecalatin.
-         insted of overiding.
-         ===============================
 
 
 

@@ -1,55 +1,51 @@
-what method overloading in java:
-    with the hlep of method overloading we can have many methods with same name but different
+Recap:
+what method overloading:
+    with the help of method overloading we can have many methods with same name but different
     parameters in a class:
-
-why we shoud use methodover loading.
-     1)Cleaner code if multiple methods are doing the same thing we dont need to come up with
+why we should use method overloading.
+     1)Cleaner code if multiple methods are doing the same thing we don't need to come up with-
      different names.
      2)Flexibility for the end user.
-
-how we can use methodoverloading in java.
-
+How we can use method-overloading:
     we can overload a method by changing three things
     1) number of parameters
     2)change the date type of parameters
-    3)we can change the sequece of parameters.
-class Calculator{
-int method(int , int1 num2, int num3{
-return num1+num2+num3;
-}
-int sum(int num1, int num2, int num3){
-return num1+num2+num3;
-
-}
-}
+    3)we can change the sequence of parameters.
+Example:
+   class Calculator{
+   int method(int , int1 num2, int num3{
+   return num1+num2+num3;
+   }
+   int sum(int num1, int num2, int num3){
+   return num1+num2+num3;
+   }
+   }
 Rules:
-1)Method names shoud be same but parameters should be different.
-2)we cant overload method by just changing it return  type
-3)we can also overload constructors by following the same rules.
+   1)Method names should be same but parameters should be different.
+   2)we cant overload method by just changing it return type.
+   3)we can also overload constructors by following the same rules.
+---------------------------------------------------------------------------------------------------------------------
+what is methodOverriding:
+   Happens when same method exist inside the parent class and the child class.
 
-===============
-
-what is methodOverrriding:
-   Happens when same method exisist inside the parent class and the child class.
-why we shoud overrride a method :
-   If we are inheriting from a parent class we dont like the implementation of a method form
+Why we should override a method:
+   If we are inheriting from a parent class we don't like the implementation of a method form-
    the parents class we can provide our own implementation.
-   sometimes it done to improve the performace of code.
+   sometimes it done to improve the performance of code.
 
 How we can override a method:
-
-   when we inherite from a class we just need to rewrite that mehtod inside the child class
-   all sould be same except the body and access modifiers.
+   when we inherited from a class we just need to rewrite that method inside the child class.
+   all should be same except the body and access modifiers.
 
 Rules
-1) for override we must inherit from a class
-2)the method in the parent class that we want to override must be exactly the same as method
-int the child class only the access modifiers can be different
-3) The access modifies in the parent class can only be incresed with respect to the
-visibility for ecample we can change defualt to protecated or to public but we can not make it
-private
-4)if something is not inherited we cant override it for example private methdo and constructors
-
+  1) for override we must inherit from a class
+  2)the method in the parent class that we want to override must be exactly the same as method
+  int the child class only the access modifiers can be different
+  3) The access modifies in the parent class can only be increased with respect to the
+  visibility for example we can change default to protected or to public but we can not make it
+  private
+  4)if something is not inherited we cant override it for example private method and constructors.
+---------------------------------------------------------------------------------------------------------------------
 
 
 

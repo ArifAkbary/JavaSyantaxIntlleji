@@ -1,0 +1,19 @@
+Recap:
+Collection frame works are in three parts of all of them which is :
+  1) List
+  2) Set
+  3) Map
+
+  these two of them are interface which we can implemented  all their class in our class as a object.
+  all three they have downside and upside. that we can go through them.
+
+  List=> we go and implement it linked list and array list which is two kind.
+  Set => can go and implement it by three which is ,hashset, hash linked ,tree set
+  Map=>  can go and implement it by three which is ,hashmap, hash linked map, tree map.
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+

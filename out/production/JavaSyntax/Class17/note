@@ -1,24 +1,20 @@
 Access Modifiers:
-Access Modifiers are keyword in java tthat help us control the accesses of class variable method others code of
-block there.
- four accesses level in java
-private default (it not keyword)p protected and public . we have theree keywords taht define these
-access level 1 protected 3 public.
-
-privete:
-     when we use private keyword with a method or field it is only  accessible inside that class.
-     it is most restricted access modifiers.
-default (it is not a keyword):
-     when we dont use any access modifers keyword with a filed or a method then defult access is
-     applied by java which means we can access this variable or method inside the dame as well as in all the orher
+   Access Modifiers are keyword in java that help us control the accesses of class variable method others code of
+   block there.
+Four accesses level in java:
+    private, default (it not keyword), protected ,public .
+Private:
+    when we use private keyword with a method or field it is only  accessible inside that class.
+    it is most restricted access modifiers.
+default: (it is not a keyword):
+     when we don't use any access modifiers keyword with a filed or a method then default access is
+     applied by java which means we can access this variable or method inside the dame as well as in all the others-
      class which exist inside the dame package.
-
 Protected:
-we have protected access modifier we dcan access that method or varible inside the class inside the other class which
-are inside same pakage inside the class which in differant pakage as well buy they must have extends relationships with
-original class.
-
-
-public :
-when we use the public access modifiers we can use tth filed or method anywhere inside teh
-same project
+    we have protected access modifier we dcan access that method or variable inside the class inside the other class which-
+    are inside same package inside the class which in different package as well buy they must have extends relationships with-
+    original class.
+Public :
+   when we use the public access modifiers we can use tth filed or method anywhere inside the-
+   same project.
+ ---------------------------------------------------------------------------------------------------------------------

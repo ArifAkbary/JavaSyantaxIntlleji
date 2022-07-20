@@ -1,0 +1,60 @@
+Collections framework:
+   Collections framework is just collection of interface and class that have money method that
+   store and manipulate real life day to day data.
+
+Why we should learn collection frame work:
+   collections framework contains the classes that have pre built method to store and manipulate
+   to data.
+   these method battle tested.(very well tested something we can use in productions environments )
+
+How can we use this collections frame work:
+   They are just class in other class in java
+   we create the object of the class and start calling the methods we just need to take care of the
+   diamond " <> " operator.
+   we put the name of the class inside the diamond operator <> diamond operator / who's objects
+   we will be storing inside these class for example for strings and arraylist the syntax is
+   Arraylist<String> object-name=new Arraylist<>();
+
+What are wrapper class:
+   Retrieval (get operation)of elements is super fast
+   adding elements in the middle of start will be very expensive
+   they are special class built to work collections framework which are rep-lit of
+   primitive data type .but they are class means we can use them just like any other class
+   we can have methods.
+   Boxing:
+   when we convert a primitive to non primitive wrapper class we call it boxing
+   this conversion is can happen automatically or we can also expected to convert primitive to non primitive.
+   in the case of atom it is called ato boxing in auto boxing we just assign the data
+   and it converted automatically while we need to call a method to convert it .
+   unboxing and bowing is reverse of each other.
+
+   1)we need to use the wrapper classes with collection framework.
+   2)int num vs integer num wrapper classes occupy 4 times more memory as compared to primitive
+      but as tester we don not  worry too much about these wrapper classes.
+List:
+   list is the first interface that will be discussing from the collections framework:
+       1)  we can store duplicates data
+       2)  insertion order is maintained
+   implemented by two :
+    Arraylist:
+    linked-listClass:
+Different  between arraylist and linked list
+    LinkedList:Upside:
+    whenever we have to insert the data randomly no at the last index we should be using Linked-list.
+    downside:
+retrieval is super super slow if the list is big.
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

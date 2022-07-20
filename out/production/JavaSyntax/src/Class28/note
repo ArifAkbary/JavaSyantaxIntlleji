@@ -1,0 +1,71 @@
+What is a list:
+    list if an interface inside the frame work which have below
+    properties.
+    1)insertion order is maintained.
+    2)i can store duplicate data.
+
+    list is implemented by many classes but we will be focusing or arraylist and
+    linked list.
+ArrayList:
+   when my requirement is that i will be reading the data a lot then i should be going
+   with ArrayList.
+Linked List
+    Most of our operation will be writing the data to a list in between or in the
+    start or shifting data we should going with linked list.
+iterator :
+   is an interface that has three methods hasNext() and remove().
+   whenever we try to modify the size of a list using simple loop there are
+   chance that it will not work will thought an error
+   because list is dynamic and can change the size at runtimes so to be always on
+   the safe side we should  use iterators.
+set:
+1)Duplicate is not allowed
+2)we will be discussing three types of sets :
+   1)Hash Set
+   2)linked hashset
+   3)Tree set
+Hashset :
+upside:
+    no insertion order is maintained but it is the fastest of all.
+Down side:
+    no iteration order is maintained.
+Linked hashset:
+Upside:
+   insertion order is maintained.
+Downside:
+   retrieval of element will be super slow.
+   insertion speed slow than faster.
+TreeSet:
+upside:
+    elements will always be in sorted form.
+Down side:
+    insertion.
+Map:
+   map is an interface in java that allow us to store key value pairs
+   we can not have duplicate keys but we can have duplicate values
+   we will discussing three of them.
+1)Hashmap
+2)linked hashmap
+3)Tree Map
+
+Hash Map
+Upside:
+    fastest when it comes to insert and retrieve the element.
+Downside:
+    no insertion order.
+LinkedHashmap:
+Upside:
+     insertion order will be maintain
+Down side:
+     retrieve will be slowest
+Tree Map
+Upside:
+    data will be store in the sorted order.
+Downside:
+    insertion is the slowest.
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

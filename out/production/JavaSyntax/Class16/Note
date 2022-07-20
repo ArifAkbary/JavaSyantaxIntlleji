@@ -1,0 +1,12 @@
+Recap
+  Variables three kind local static instance :
+Example:
+   class test{
+   void method1 (){
+   String person="elisa bro";
+   }
+   void Russia(){
+   System.out.println(person)// we will get an error because right now person is only accessible in USA
+ }
+---------------------------------------------------------------------------------------------------------------------
+

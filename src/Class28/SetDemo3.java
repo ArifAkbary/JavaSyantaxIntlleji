@@ -1,0 +1,17 @@
+package Class28;
+
+import java.util.TreeSet;
+
+public class SetDemo3 {
+    public static void main(String[] args) {
+
+        TreeSet<Integer>sortedNumbers=new TreeSet<>();
+        sortedNumbers.add(1);
+        sortedNumbers.add(3);
+        sortedNumbers.add(2);
+        sortedNumbers.add(6);
+        sortedNumbers.add(6);
+        sortedNumbers.add(7);
+        System.out.println(sortedNumbers);
+    }
+}

@@ -1,44 +1,32 @@
 what is super keyword:
-
      super keyword in java is used to refer to the class object.
-why should be learn super keyword.
-1) if we have same name variable or method in the super/parents /base class then we can use the super keyword to refer to
-parent class variable or method because by default java prefers the variables of child class.
-we can also call the super class constructor with helop of super with parenthesis super()
+     why should be learn super keyword.
+    1) if we have same name variable or method in the super/parents /base class then we can use the super keyword to refer to-
+    parent class variable or method because by default java prefers the variables of child class.
+    2) we can also call the super class constructor with help of super with parenthesis super().
 
 How we can use super keyword:
-1) we can use super.method name or field name to call the method or to access the feid of super class
-2)use the super with parenthesis to call the supper class constructors.
+   1) we can use super.method name or field name to call the method or to access the filed of super class
+   2)use the super with parenthesis to call the supper class constructors.
 
-ruels:
-1) we can only acess the immediate parent class construcor or field or method with
-2) we can only use only super() inside a constructor.
-3) if we have we have user constructor in the parent class we must have a mathching construcotr inside the child
-class as well.
-4) super() shoud be the first line in the construcor.
-5) if we have multiple constructro inside the parent as soon as one mathched we are good to go we dont need
-to each and every constructor form the parent class
-==================
-
-important:
-Arrays
-loops
-if else conditions
-class object
-string class
-
-==========================================================
+Rules:
+   1) we can only access the immediate parent class constructor or field or method with.
+   2) we can only use only super() inside a constructor.
+   3) if we have we have user constructor in the parent class we must have a matching constructor inside the child-
+   class as well.
+   4) super() should be the first line in the constructor.
+   5) if we have multiple constructor inside the parent as soon as one matched we are good to go, we don't need-
+   to each and every constructor form the parent class.
+---------------------------------------------------------------------------------------------------------------------
 What is methodOverLoading:
-
-    when same name method exist in a class with differrent number of parameters or diffirent type of
-    parameter or different sequence of parameter is called method over loading  .
-
-
-How we can use methodOverLoading .
-  we can have same name methods but we have to follow the below rules.
-  1)by passing different number of parameters
-  2)we can change the datat types of a parameters
-  3) we can also overload a method by changing the sequence of parameters.
+    when same name method exist in a class with different number of parameters or different type of-
+    parameter or different sequence of parameter is called method over loading.
+How we can use methodOverLoading:
+We can have same name methods but we have to follow the below rules:
+   1)by passing different number of parameters.
+   2)we can change the data types of a parameters.
+   3) we can also overload a method by changing the sequence of parameters.
+---------------------------------------------------------------------------------------------------------------------
 
 
 
