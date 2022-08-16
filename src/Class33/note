@@ -1,0 +1,32 @@
+Exception java
+   exception is an unwanted behavior from the application that disrupt  the normal flow-
+   application.
+
+exception handling is covering the complex system error massage to user friendly  error massage.
+
+friendly error massage
+   which are understand by common people we provide back up code that use used if our primary logic fails.
+
+Why we should handle exception
+   1)to make the software user friendly
+   2)it helps use make more robust (better) application
+   3)we can figure out the exact line numbers and issue that are causing program in our code
+   (most in for all type of program).
+   what is the syntax how do i use exception handling in my code
+   we have new keywords like try catch,  finally  throw,  and throws.
+Ex:
+  try {
+  we put that part of the code here that ca cause exceptions.or problematic code.
+  }catch(create a variables  of the class whose exception can throw){
+  back up code here
+  }
+  throw and throws exception..
+  --------------------------------------------------------------------------------------------------------------------
+Exceptions happen when there is an error in the code or a file is not found. There are 2 type of exceptions
+  1- Checked exceptions
+  2- Unchecked exceptions
+  How we handle exceptions?
+  With try and catch blocks, we put the code which we think will give us error in
+  the try block and the type of exceptions we expect we put in the catch block.
+----------------------------------------------------------------------------------------------------------------------
+

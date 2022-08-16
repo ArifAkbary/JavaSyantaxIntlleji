@@ -1,3 +1,5 @@
+package Class14.src;
+
 import java.util.Scanner;
 
 public class MethodsDemo {

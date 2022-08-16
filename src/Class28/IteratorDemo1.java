@@ -21,13 +21,13 @@ public class IteratorDemo1 {
         //}
        // System.out.println(words);
 
-        //Iterator<String > iterator=words.iterator();
-        //System.out.println(iterator.next());
-        //System.out.println(iterator.hasNext());
+        Iterator<String > iterator=words.iterator();
+        System.out.println(iterator.next());
+        System.out.println(iterator.hasNext());
 
-       // System.out.println(iterator.hasNext());
-       // System.out.println(iterator.next());
-      //  System.out.println(iterator.hasNext());
+        System.out.println(iterator.hasNext());
+        System.out.println(iterator.next());
+       System.out.println(iterator.hasNext());
 
 
 

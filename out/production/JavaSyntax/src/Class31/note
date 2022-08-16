@@ -1,0 +1,24 @@
+FileHandling
+   reading/writing data to a file is called file handling.
+   the data that changed frequently we don't put that data with code because if we-
+   have to change that data we need recover code and manipulate  the code on production servers again
+   it is very long process and might take weeks .
+   the other issue is might accidentally change the code as well when changing the data and might introduce bugs.
+
+how to handle file java:
+we follow bellow steps read and rite data file:
+   1)we need to know the path of file.
+   2)navigate  to that location using file-input stream if we are planing  to read the data from file and-
+   file output stream if we are planing to write the data from a file.
+   3)need to use the proper class that can handle that filed for example if we need to
+   read /write data from properties class we can use the properties class.
+
+we need to read and write data from provided  class we can use properties class and XSSF wordbook class
+excel file.
+how to create properties file
+  1)write click on folder that we want create our file.
+  2)click new file gave ane title and  write the extension as properties.
+  3)fine the path right click copy that path from content root.
+-----------------------------------------------------------------------------------------------
+
+
